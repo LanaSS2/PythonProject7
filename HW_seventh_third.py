@@ -1,6 +1,6 @@
 #find the index of the second entry of the second string in the first string.
 
-def second_index(text, some_str):
+def second_index(text: str, some_str: str):
     first = text.find(some_str)
     if first == -1:
         return None
